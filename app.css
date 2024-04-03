@@ -1,0 +1,263 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: ghostwhite;
+}
+
+.header {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+}
+
+.header a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navigation {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 70px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.37);
+}
+
+.imgup {
+  position: absolute;
+  left: 50px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  width: 100px;
+  height: auto;
+}
+
+.image {
+  left: 50px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.items {
+  color: dimgray;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.special {
+  color: red;
+  padding: 14px 20px;
+  border: 5px solid red;
+  align-self: flex-end;
+}
+
+.special a {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.special:hover {
+  background-color: grey;
+}
+
+.event {
+  text-align: center;
+  padding: 50px;
+  background: url("https://img.freepik.com/free-photo/bokeh-soft-focus-abstract-background_23-2148055648.jpg?w=900&t=st=1712144264~exp=1712144864~hmac=de10130ea19eb6eb55b1709d48d24ccda6f4ff15219bd699891b4a0cb2788a4f")
+    no-repeat center center;
+  background-size: cover;
+  color: #333;
+}
+
+.event h1 {
+  font-size: 36px;
+  color: red;
+  margin-bottom: 10px;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.event h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  max-width: 500px;
+  text-align: left;
+  margin-left: 40px;
+  color: #ccc;
+}
+
+.event p {
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 410px;
+  text-align: left;
+  margin-left: 50px;
+  color: #ccc;
+}
+
+.event .date {
+  font-size: 24px;
+  color: red;
+  margin-header: 20px;
+  font-weight: 900;
+  border-radius: 15px;
+  margin-bottom: 1px;
+}
+
+.event .location {
+  font-size: 20px;
+  margin-header: 5px;
+  max-width: 600px;
+}
+
+.program {
+  text-align: center;
+  color: white;
+  padding: 50px;
+
+}
+
+.program h1 {
+  margin-bottom: 1px;
+  color: #fff;
+}
+
+.program hr {
+  width: 25px;
+  height: 2px;
+  border: none;
+  background-color: #ff5722;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.card {
+  background: #333;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  color: #ff5722;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.program {
+  display: inline-block;
+  margin-header: 3rem;
+  color: #fff;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+
+.program:hover {
+  background-color: #e64a19;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+}
+
+.container h2 {
+  font-size: 2em;
+}
+
+.section {
+  width: 50px;
+  height: 4px;
+  margin: 0 auto 20px;
+  border: none;
+  background-color: #ff5722;
+}
+
+.containers-container {
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.speaker-photo {
+  width: 100px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.speaker-info h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.speaker-info .title {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.speaker-info p {
+  color: #333;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.pro {
+  width: 50px;
+  height: 2px;
+  margin: 0 auto 20px;
+  border: none;
+  background-color: #ff5722;
+}
